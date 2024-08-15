@@ -85,7 +85,7 @@ const Navbar: React.FC<NavbarProps> = ({ closeSideMenu }) => {
         ))}
       </div>
       <a href={"/documents/document.pdf"} target="_blank">
-        <Button  text="Login/ Sign Up"/>
+        <Button text="Login/ Sign Up" />
       </a>
     </nav>
   );

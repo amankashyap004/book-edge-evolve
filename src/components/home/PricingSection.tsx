@@ -3,8 +3,18 @@ import React from "react";
 const PricingSection: React.FC = () => {
   return (
     <div className="flex justify-center items-center w-full">
-      <div className="container px-4 lg:px-40 py-4 flex flex-col  justify-center items-center w-full gap-4 lg:gap-8">
-        <div className="flex flex-col justify-center items-center space-y-2 text-center">
+      <div
+        className="container px-4 lg:px-40 py-4 flex flex-col justify-center items-center w-full gap-4 lg:gap-8"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="center-bottom"
+      >
+        <div
+          className="flex flex-col justify-center items-center space-y-2 text-center"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          data-aos-anchor-placement="center-bottom"
+        >
           <h2 className="text-lg lg:text-2xl font-bold drop-shadow-lg">
             Flexible Plans to Suit Every Need
           </h2>
@@ -24,6 +34,9 @@ const PricingSection: React.FC = () => {
                   ? "from-[#8a2be2] to-[#4b0082] hover:from-[#4b0082] hover:to-[#8a2be2]"
                   : "from-[#4b0082] to-[#8a2be2] hover:from-[#8a2be2] hover:to-[#4b0082]"
               }`}
+              data-aos="fade-up"
+              data-aos-duration="1400"
+              data-aos-anchor-placement="center-bottom"
             >
               <h3 className="text-2xl font-bold mb-1 lg:mb-2">{plan.name}</h3>
               <p className="text-xl font-semibold mb-1 lg:mb-2">{plan.price}</p>

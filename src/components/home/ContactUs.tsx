@@ -65,7 +65,12 @@ const ContactUs: React.FC = () => {
 
   return (
     <div className="flex justify-center items-center w-full">
-      <div className="container px-4 lg:px-40 py-4 flex justify-center items-center w-full lg:w-3/4">
+      <div
+        className="container px-4 lg:px-40 py-4 flex justify-center items-center w-full lg:w-3/4"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+        data-aos-anchor-placement="center-bottom"
+      >
         <div className="p-4 lg:p-8 rounded-lg shadow-md bg-[#4b0082]/50 backdrop-blur-lg w-full">
           <h2 className="text-xl lg:text-2xl font-bold mb-2 lg:mb-4 text-center">
             Contact Us

@@ -3,7 +3,12 @@ import React from "react";
 const FeaturePost: React.FC = () => {
   return (
     <div className="flex justify-center items-center w-full">
-      <div className="container px-4 lg:px-40 py-4 lg:py-8 flex justify-center items-center w-full">
+      <div
+        className="container px-4 lg:px-40 py-4 lg:py-8 flex justify-center items-center w-full"
+        data-aos="zoom-in"
+        data-aos-duration="1200"
+        data-aos-anchor-placement="top-bottom"
+      >
         <div className="group relative bg-gray-400/50 backdrop-blur-lg p-4 lg:p-12 rounded-lg overflow-hidden">
           <div className="transition-all duration-700 group-hover:scale-105">
             <img

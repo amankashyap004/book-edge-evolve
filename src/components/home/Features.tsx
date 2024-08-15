@@ -27,7 +27,12 @@ const features = [
 const Features: React.FC = () => {
   return (
     <div className="flex justify-center items-center w-full">
-      <div className="container px-4 lg:px-40 py-4 lg:py-8 flex justify-center items-center w-full">
+      <div
+        className="container px-4 lg:px-40 py-4 lg:py-8 flex justify-center items-center w-full"
+        data-aos="fade-up"
+        data-aos-duration="1200"
+        data-aos-anchor-placement="center-bottom"
+      >
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 lg:gap-6">
           {features.map((feature, index) => (
             <div
