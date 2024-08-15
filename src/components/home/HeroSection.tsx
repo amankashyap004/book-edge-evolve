@@ -4,7 +4,7 @@ import Button from "../ui/Button";
 const HeroSection: React.FC = () => {
   return (
     <div className="flex justify-center items-center w-full">
-      <div className="container px-4 lg:px-40 py-8 lg:py-28 flex flex-col justify-center items-center w-full gap-4 lg:gap-6">
+      <div className="container px-4 lg:px-40 pt-8 pb-4 lg:pt-28 flex flex-col justify-center items-center w-full gap-4 lg:gap-6">
         <section className="flex justify-center items-center w-full">
           <h1 className="text-2xl lg:text-6xl font-semibold text-center ">
             <span className="leading-tight">
