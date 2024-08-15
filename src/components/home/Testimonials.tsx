@@ -125,7 +125,7 @@ const TestimonialSection: React.FC = () => {
         onSlideChangeTransitionEnd={(swiper) => {
           setActiveIndex(swiper.realIndex);
         }}
-        onReachEnd={(swiper) => {
+        onReachEnd={() => {
           setActiveIndex(0);
         }}
       >
