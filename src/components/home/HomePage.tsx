@@ -4,6 +4,7 @@ import FeaturePost from "./FeaturePost";
 import Features from "./Features";
 import PricingSection from "./PricingSection";
 import Testimonials from "./Testimonials";
+import ContactUs from "./ContactUs";
 
 const HomePage: React.FC = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage: React.FC = () => {
       <Features />
       <PricingSection />
       <Testimonials />
+      <ContactUs/>
     </div>
   );
 };

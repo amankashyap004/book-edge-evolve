@@ -13,7 +13,7 @@ const navItems: NavItem[] = [
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex justify-center items-center w-full border-t border-gray-600 border-opacity-40">
+    <footer className="flex justify-center items-center w-full border-t border-gray-600 border-opacity-40 mt-4 lg:mt-12">
       <div className="container px-4 lg:px-40 py-3 lg:py-6 flex flex-col justify-center items-center w-full gap-2 lg:gap-3">
         <section className="flex justify-center items-center w-full">
           <p className="text-sm lg:text-base font-bold">
