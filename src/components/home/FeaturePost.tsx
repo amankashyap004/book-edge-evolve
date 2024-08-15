@@ -12,7 +12,7 @@ const FeaturePost: React.FC = () => {
         <div className="group relative bg-gray-400/50 backdrop-blur-lg p-4 lg:p-12 rounded-lg overflow-hidden">
           <div className="transition-all duration-700 group-hover:scale-105">
             <img
-              src={"./src/assets/images/feature-post-book.png"}
+              src={"./assets/images/feature-post-book.png"}
               alt="logo"
               className="object-contain w-full rounded-lg "
             />
@@ -20,7 +20,7 @@ const FeaturePost: React.FC = () => {
           <div className="absolute top-2 lg:top-4 left-2 lg:left-4 w-12 lg:w-28">
             <div className="bg-gray-400/50 backdrop-blur-lg p-1 lg:p-3 rounded-md">
               <img
-                src={"./src/assets/images/feature-post-paradox.png"}
+                src={"./assets/images/feature-post-paradox.png"}
                 alt="logo"
                 className="object-contain w-full rounded-md transition-all duration-700 hover:scale-105"
               />

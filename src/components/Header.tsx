@@ -34,7 +34,7 @@ const Header: React.FC = () => {
           <div className="">
             <a href={"/"} className="flex justify-center items-center gap-2">
               <img
-                src={"./src/assets/images/logo.png"}
+                src={"./assets/images/logo.png"}
                 alt="logo"
                 className="object-contain w-8"
               />
